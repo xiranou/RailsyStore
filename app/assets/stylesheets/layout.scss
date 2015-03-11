@@ -29,3 +29,15 @@ body {
     top: -5px;
   }
 }
+
+.movies-grid {
+  .movie-card {
+    width:220px;
+    margin:auto;
+    .poster img {
+      height: 325px;
+      width:100%;
+    }
+    .movie-info { .title { height: 4em; } }
+  }
+}
