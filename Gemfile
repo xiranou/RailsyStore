@@ -47,6 +47,9 @@ gem 'braintree', '~> 2.33.1'
 #Figaro
 gem 'figaro', '~> 0.7.0'
 
+# Gon
+gem 'gon', '~> 5.1.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
