@@ -41,6 +41,12 @@ gem 'devise'
 gem 'redis', '~> 3.0.1'
 gem 'hiredis', '~> 0.4.5'
 
+# Braintree
+gem 'braintree', '~> 2.33.1'
+
+#Figaro
+gem 'figaro', '~> 0.7.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
