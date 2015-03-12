@@ -12,9 +12,9 @@ class User < ActiveRecord::Base
   end
 
   def cart_total_price
-    total_price = 0
-    get_cart_movies.each { |movie| total_price+= movie.price }
-    total_price
+    get_cart_movies.to_a.inject(0) do |total, movie|
+      total += movie.price
+    end
   end
 
   def get_cart_movies
